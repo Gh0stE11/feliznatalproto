@@ -48,19 +48,70 @@ nav{
     justify-content: space-between;
     padding: 5rem 5rem;
     background-color: #F7C7B9;
+
+}
+
+#Nataltext{
+    display: flex;
+    flex-direction: column;  
 }
 
 #Nataltext h2{
     font-weight: 600;
     font-size: 2.5rem;
-    height: 3rem;
-
+    margin-bottom: 1rem;
 }
 
 #Nataltext p{
     font-weight: 500;
     font-size: 0.95rem;
+    margin-bottom: 2rem;
 }
+
+#donationbutton {
+    color: white;
+    background-color:#DA2535 ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    border: 0;
+    width: 13rem;
+}
+
+#acessorios{
+    background-color: white;
+    padding: 3rem 5rem;
+}
+
+#acessoriostext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#acessoriostext h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+#acessoriostext p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+#itensboxes ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
 
 
 
