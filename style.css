@@ -177,13 +177,27 @@ nav{
     align-items: center;
 }
 
-
-#contactlogos ul{
+#contactlogos{
     display: flex;
     flex-direction: row;
-    list-style-type: none;
-    gap: 1rem;
 }
+
+
+#contactlogos button{
+    border: none;
+    background-color:#F7C7B9;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 
 
