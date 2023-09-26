@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #F7C7B9;
+    padding: 0.5rem 5rem;
+}
+
+#logo{
+    font-family: Poppins;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+
+}
+
+#logo h1{
+    font-weight: 500;
+    letter-spacing: 0em;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+#menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+#main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5rem 5rem;
+    background-color: #F7C7B9;
+}
+
+#Nataltext h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    height: 3rem;
+
+}
+
+#Nataltext p{
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+
+
